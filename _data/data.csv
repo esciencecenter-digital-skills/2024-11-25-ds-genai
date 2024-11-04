@@ -1,2 +1,2 @@
 venue,address,country,latitude,longitude,humandate,humantime,startdate,enddate,instructor,helper,carpentry,curriculum,title,slug,flavor
-Netherlands eScience Center,"Science Park 402, 1098 XH Amsterdam",NA,52.3566998,4.9569812,"november 25 - 25, 2024",11:00 - 15:00 CET,2024-11-24T23:00:00Z,2024-11-24T23:00:00Z,Giulia Crocioni,,ds,ds-genai,external training of GenAI for programming,2024-11-25-ds-genai,NA
+Netherlands eScience Center,"Science Park 402, 1098 XH Amsterdam",NA,52.3566998,4.9569812,"November 25, 2024",11:00 - 15:00 CET,2024-11-24T23:00:00Z,2024-11-24T23:00:00Z,Giulia Crocioni,Olga Minaeva,,ds,ds-genai,AI-assisted Coding with Codeium,2024-11-25-ds-genai,NA
