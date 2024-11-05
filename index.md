@@ -134,8 +134,9 @@ the pitch.
 AUDIENCE
 
 Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
+workshop is only open to people from a particular institution.)
 {% endcomment %}
+
 {% if info.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif info.carpentry == "dc" %}
@@ -143,10 +144,11 @@ workshop is only open to people from a particular institution.
 {% elsif info.carpentry == "lc" %}
 {% include lc/who.html %}
 {% elsif info.carpentry == "ds" %}
-<div style="display: flex">
-     <strong>Who:&nbsp;</strong>
-  </div>
-<div markdown=1>{% remote_include {{lesson_meta}}/who.md %}</div>
+<p id="who">
+  <strong>Who:</strong>
+  {% remote_include {{lesson_meta}}/who.md %}
+</p>
+{% endif %}
 
 {% comment %}
 LOCATION
