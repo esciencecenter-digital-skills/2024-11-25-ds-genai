@@ -142,29 +142,11 @@ Explain who your audience is.
 {% elsif info.carpentry == "lc" %}
 {% include lc/who.html %}
 {% elsif info.carpentry == "ds" %}
-<div style="display: flex"><div>
-  <strong>Who:&nbsp;</strong>
-  </div>
-  <div markdown=1>{% remote_include {{lesson_meta}}/who.md %}
-{% endif %}
+<p id="where">
+  <strong>Where:</strong>
+<div markdown=1>{% remote_include {{lesson_meta}}/who.md %}
+</p>
 
-{% comment %}
-LOCATION
-
-This block displays the address and links to maps showing directions
-if the latitude and longitude of the workshop have been set.  You
-can use https://itouchmap.com/latlong.html to find the lat/long of an
-address.
-{% endcomment %}
-{% assign begin_address = info.address | slice: 0, 4 | downcase  %}
-{% if info.address == "online" %}
-{% assign online = "true_private" %}
-{% elsif begin_address contains "http" %}
-{% assign online = "true_public" %}
-{% else %}
-{% assign online = "false" %}
-{% endif %}
-{% if info.latitude and info.longitude and online == "false" %}
 <p id="where">
   <strong>Where:</strong>
   {{info.address}}.
