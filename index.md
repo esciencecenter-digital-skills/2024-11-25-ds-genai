@@ -133,7 +133,8 @@ the pitch.
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.
+Explain who your audience is.  (In particular, tell readers if the
+workshop is only open to people from a particular institution.
 {% endcomment %}
 {% if info.carpentry == "swc" %}
 {% include swc/who.html %}
@@ -142,12 +143,10 @@ Explain who your audience is.
 {% elsif info.carpentry == "lc" %}
 {% include lc/who.html %}
 {% elsif info.carpentry == "ds" %}
-<div id="who" style="display: flex">
-  <p><strong>Who:</strong></p>
-  <div markdown="1">
-    {% remote_include {{lesson_meta}}/who.md %}
-  </div>
-</div>
+<div style="display: flex"><div>
+     <strong>Who:&nbsp;</strong>
+     </div>
+     <div markdown=1>{% remote_include {{lesson_meta}}/who.md %}</div></div>
 {% endif %}
 
 {% comment %}
@@ -167,7 +166,6 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if info.latitude and info.longitude and online == "false" %}
-
 <p id="where">
   <strong>Where:</strong>
   {{info.address}}.
@@ -488,4 +486,3 @@ to include the relevant installation instrucctions.
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
-
