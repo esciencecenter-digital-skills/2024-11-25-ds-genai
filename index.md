@@ -142,10 +142,13 @@ Explain who your audience is.
 {% elsif info.carpentry == "lc" %}
 {% include lc/who.html %}
 {% elsif info.carpentry == "ds" %}
-<p id="where">
-  <strong>Where:</strong>
-<div markdown=1>{% remote_include {{lesson_meta}}/who.md %}
-</p>
+
+<div id="who">
+  <p><strong>Who:</strong></p>
+  <div markdown="1">
+    {% remote_include {{lesson_meta}}/who.md %}
+  </div>
+</div>
 
 <p id="where">
   <strong>Where:</strong>
