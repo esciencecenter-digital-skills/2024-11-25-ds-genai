@@ -143,11 +143,10 @@ workshop is only open to people from a particular institution.
 {% elsif info.carpentry == "lc" %}
 {% include lc/who.html %}
 {% elsif info.carpentry == "ds" %}
-<div style="display: flex"><div>
+<div style="display: flex">
      <strong>Who:&nbsp;</strong>
-     </div>
-     <div markdown=1>{% remote_include {{lesson_meta}}/who.md %}</div></div>
-{% endif %}
+  </div>
+<div markdown=1>{% remote_include {{lesson_meta}}/who.md %}</div>
 
 {% comment %}
 LOCATION
