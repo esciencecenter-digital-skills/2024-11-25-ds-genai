@@ -145,7 +145,7 @@ workshop is only open to people from a particular institution.)
 {% include lc/who.html %}
 {% elsif info.carpentry == "ds" %}
 <div style="display: flex">
-  <div><strong>Who:</strong></div>
+  <div><strong>Who:&nbsp;</strong></div>
   <div markdown=1>{% remote_include {{lesson_meta}}/who.md %}</div>
 </div>
 {% endif %}
