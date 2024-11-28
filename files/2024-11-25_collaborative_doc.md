@@ -60,8 +60,6 @@ If you need help from a helper, place a pink post-it note on your laptop lid. A 
 If you attend the full workshop you can request a certificate of attendance by emailing to training@esciencecenter.nl.
 Please request your certificate within 8 months after the workshop, as we will delete all personal identifyable information after this period.
 
-## 🔧 Exercises
-
 ## 🧠 Collaborative Notes
 
 ### Introduction to AI coding assistants 
@@ -193,7 +191,7 @@ pip install -r https://raw.githubusercontent.com/olgaminaeva/gen-ai-coding/refs/
 - Continuous monitoring and updating: regular security fixes are published by providers as issues become flagged
 - Collaborative oversight/code reviewing to have an extra set of eyes checking your code
 
-## Exercises
+## 🔧 Exercises
 
 #### Hands on 1 - Code Generation
 
