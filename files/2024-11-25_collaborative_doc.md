@@ -8,8 +8,6 @@ This Document is synchronized as you type, so that everyone viewing this page se
 
 ----------------------------------------------------------------------------
 
-This is the Document for today: https://edu.nl/6gvtf
-
 ##  🫱🏽‍🫲🏻 Code of Conduct
 
 Participants are expected to follow these guidelines:
