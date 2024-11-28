@@ -159,15 +159,6 @@ Please request your certificate within 8 months after the workshop, as we will d
     - Use good variable/class/etc naming as well as type hints (in Python), this helps the autocomplete function understand what you want to do (also future developers)
     - Be explicit about what you want
 
-### Using Codeium
-- create a virtual environment
-
-```bash=
-pip install virtualenv
-python3 -m venv .venv
-pip install -r https://raw.githubusercontent.com/olgaminaeva/gen-ai-coding/refs/heads/main/learners/files/requirements.txt
-```
-
 ### Ethical and security considerations
 
 #### Ethical considerations
@@ -192,6 +183,15 @@ pip install -r https://raw.githubusercontent.com/olgaminaeva/gen-ai-coding/refs/
 - Collaborative oversight/code reviewing to have an extra set of eyes checking your code
 
 ## 🔧 Exercises
+
+### Using Codeium
+- create a virtual environment
+
+```bash=
+pip install virtualenv
+python3 -m venv .venv
+pip install -r https://raw.githubusercontent.com/olgaminaeva/gen-ai-coding/refs/heads/main/learners/files/requirements.txt
+```
 
 #### Hands on 1 - Code Generation
 
